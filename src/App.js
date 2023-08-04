@@ -10,7 +10,7 @@ const ListItem = ({ index, style }) => {
   );
 };
 const MyListComponent = () => {
-  const itemCount = 1000; // Total number of items in the list
+  const itemCount = 10000000; // Total number of items in the list
   const itemSize = 50; // Height of each item in the list
 
   const renderItem = ({ index, style }) => {
@@ -19,7 +19,7 @@ const MyListComponent = () => {
 
   return (
     <List
-      height={300} // Total height of the visible area
+      height={600} // Total height of the visible area
       itemCount={itemCount} // Total number of items in the list
       itemSize={itemSize} // Height of each item in the list
       width={300} // Total width of the visible area
